@@ -1,0 +1,130 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract ItemManager",
+						"name": "_parentContract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_priceInWei",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_itemIndex",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "itemIndex",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "priceInWei",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pricePaid",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Item.sol": "Item"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Item.sol": {
+			"keccak256": "0xbcfab825e646cd3eeb1ad102dd290eba769009516025351cc120654b73f8445e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://92b531642580f2541fe6af7d1ae96437e095962a25749eb175e4156670ffe809",
+				"dweb:/ipfs/QmbuTjk8kDdh5ZYPKhnGbFQJaXj5cm41XR7QfgDEMniEbR"
+			]
+		},
+		"contracts/ItemManager.sol": {
+			"keccak256": "0xb363bfbd5f94e2ea9731189ce5d5dd67540e62aadf6ec06149ce7a5d8ef74a9b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d0c048b95c7ebd63474c92c50916d9234e246d2ffdd01ccbef10a5d64690e1a3",
+				"dweb:/ipfs/QmQVJ1uWzknEMQaDoXrPP4Ap2A12aszzTLnYyH8TT7zyV7"
+			]
+		},
+		"contracts/Ownable.sol": {
+			"keccak256": "0xec8f1c856c1819138afb695acd87e2bf10478e54419f41cd24c4a2bfe04b37be",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8be1007e888aa74d41ba568e80d81cb184bc078aa2548a3778530ca7ababea52",
+				"dweb:/ipfs/Qmerqk9go7wbv6wnPP5rh4MduWFiS8tN61wYSKED8xwHYv"
+			]
+		}
+	},
+	"version": 1
+}
